@@ -1,0 +1,124 @@
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #024040 !important;
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: #024040;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid #f1f1f1;
+    }
+    .form_container{
+        margin-top: 60px;
+    }
+    .login_text{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .login-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        padding: 30px;
+        transform: translate(-50%, -50%);
+        background: #fafafa;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+      }
+      
+      .login-box .user-box {
+        position: relative;
+      }
+      
+      .login-box .user-box input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: rgba(24, 20, 20, 0.987);;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid rgba(24, 20, 20, 0.987);;
+        outline: none;
+        background: transparent;
+      }
+      
+      .login-box .user-box label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        color: rgba(131, 131, 131, 0.987);;
+        pointer-events: none;
+        transition: .5s;
+      }
+      
+      .login-box .user-box input:focus ~ label,
+      .login-box .user-box input:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: rgba(131, 131, 131, 0.987);;
+        font-size: 12px;
+      }
+      
+      .login-box form button {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: rgba(0,0,0,.6);
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold !important;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 20px;
+        letter-spacing: 2px
+      }
+      
+      .login-box button:hover {
+        background: #024040;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #024040,
+                    0 0 25px #024040,
+                    0 0 5px #024040,
+                    0 0 25px #024040;
+      }
+      
+      .login-box button span {
+        position: absolute;
+        display: block;
+      }
+      
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+      
+        50%,100% {
+          left: 100%;
+        }
+      }
+
+      .custom-alert{
+        position: fixed;
+        top: 80px;
+        right: 25px;
+      }
